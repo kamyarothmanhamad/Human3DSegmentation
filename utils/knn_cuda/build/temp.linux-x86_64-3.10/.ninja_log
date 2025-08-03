@@ -1,0 +1,11 @@
+# ninja log v5
+0	11963	1749769461215299183	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query.o	ce8ebf968672f084
+0	20200	1749769469449306525	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query_kernel.o	650aa51304563706
+18	11523	1750188347720866246	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query.o	ce8ebf968672f084
+18	18616	1750188354807469030	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query_kernel.o	650aa51304563706
+9	17909	1751150959864706767	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query_kernel.o	650aa51304563706
+10	11456	1751151273088768003	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query.o	ce8ebf968672f084
+49	23611	1751315752312233602	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query_kernel.o	650aa51304563706
+9	12720	1751315990431333854	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query.o	ce8ebf968672f084
+11	14393	1751316025494348568	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query.o	ce8ebf968672f084
+13	29811	1751316385307453975	/home/jamesdickens/Desktop/Code/ThesisResearch/PC_Utils/knn_cuda/build/temp.linux-x86_64-3.10/knn_query_kernel.o	650aa51304563706

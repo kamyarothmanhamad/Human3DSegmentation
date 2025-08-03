@@ -1,0 +1,3 @@
+# ninja log v5
+1	29846	1754225452056568924	/home/zh/human/Human3DSEG/utils/ifps_cuda/build/temp.linux-x86_64-cpython-39/fps.o	e80f2cd6114a75fb
+0	74326	1754225496512321592	/home/zh/human/Human3DSEG/utils/ifps_cuda/build/temp.linux-x86_64-cpython-39/farthest_point_sampling.o	4452da762ece01cc
