@@ -137,7 +137,7 @@ if __name__ == "__main__":
     # Create artefact paths
     model_save_dir = model_config_name[:-4] + "_" + train_config_name[:-4]
     with_delete = not with_load
-    trained_models_dir = os.path.join(os.getcwd(), "Trained_Models", model_save_dir)
+    trained_models_dir = os.path.join(os.getcwd(), "data", "models", model_save_dir)
     if os.path.exists(trained_models_dir) and with_delete:
         prompt = f"Model {model_save_dir} has a directory, are you sure you would like to delete it? If no, " \
                  f"with_load will automatically be set to true.\nEnter yes or no: "
@@ -152,8 +152,11 @@ if __name__ == "__main__":
     train_d["model_name"] = model_config_name[:-4]
     train_d["with_load"] = with_load
     train_d["only_test"] = only_test
-    train_d["save_fps"] = create_artifact_paths(model_dir=model_save_dir,
-                                                with_del=not with_load)
+    train_d["save_fps"] = create_artifact_paths(
+                                    model_dir=model_save_dir,
+                                    with_del=not with_load,
+                                    outer_path=os.path.join(os.getcwd(), "data", "models")
+                                                )
 
     # Save configs as an artefact in the training logs
     configs_save_fp = os.path.join(train_d["save_fps"]["training_logs_fp"], "model_train_cfg.json")

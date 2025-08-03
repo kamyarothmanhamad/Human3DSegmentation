@@ -25,6 +25,7 @@ Renders
 /Training_Logs/
 /Eval_Results/
 /Notes/
-/point_transformer/
-/Predictions/
+/Model/point_transformer/
 /data/
+Data_Processing/src/PointTransformerV3
+Data_Processing/src/m2fp

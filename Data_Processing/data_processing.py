@@ -85,6 +85,7 @@ sapiens_labels_v1 = {
     14: "Upper_Clothing"
 }
 
+
 sapiens_labels_v2 = {
     0: "Background",
     1: "Apparel",
@@ -105,7 +106,6 @@ sapiens_labels_v2 = {
     16: "Teeth",
     17: "Tongue",
 }
-
 
 
 def get_outer_obj_folder_fps(with_save: bool = False):
@@ -164,7 +164,6 @@ def remove_small_components(mask: np.ndarray, min_size: int) -> np.ndarray:
     return mask
 
 
-
 def save_render_output(d, outer_save_fp):
     obj_name = d["obj_name"]
     fold_save_fp = os.path.join(outer_save_fp, obj_name)
@@ -189,7 +188,6 @@ def save_render_output(d, outer_save_fp):
     info_save_fp = os.path.join(fold_save_fp, "info.npz")
     np.savez(info_save_fp, model_matr=d["model_matr"], projection_matr=d["projection_matr"],
              height=d["im_height"], width=d["im_width"], view_matr=d["view_matr"])
-
 
 
 def render_and_get_output(obj_folder_fps: List[str], outer_save_fp: str,
@@ -224,7 +222,7 @@ def get_all_models_hdf5(obj_folder_fps_batch: List[str], hdf5_save_fp: str,
     texture_ims_fp = os.path.join(hdf5_outer_folder, "textures")
     os.makedirs(texture_ims_fp, exist_ok=True)
     for obj_num, obj_folder_fp in enumerate(obj_folder_fps_batch):
-        print(f"Processing {obj_folder_fp} for {obj_num+1} out of {len(obj_folder_fps_batch)+1} files... in process {os.getpid()}")
+        print(f"Processing {obj_folder_fp} for {obj_num+1} out of {len(obj_folder_fps_batch)} files... in process {os.getpid()}")
         obj_fp = obj_parser.get_first_obj(obj_folder_fp)
         parent_fold_name = os.path.basename(path_utils.get_parent(obj_fp))
         grandparent_fold_name = os.path.basename(path_utils.get_parent(path_utils.get_parent(obj_fp)))
@@ -656,7 +654,6 @@ def get_cihp_ifps_sampled_vertices(outer_vertices_fp: str, outer_labels_fp: str,
         hdf5_utils.append_hdf5_dataset_from_d_nested(d, sampled_save_fp)
 
 
-
 def get_sapiens_ifps_sampled_vertices(outer_vertices_fp: str, outer_labels_fp: str,
                               sampled_save_fp: str, K1: int, K2:int, max_points_per_window: int = 5000,
                                 K_ratios: Tuple[float] = (0.05, 0.05, 0.05, 0.05, 0.8),
@@ -773,7 +770,6 @@ def get_sapiens_ifps_sampled_vertices(outer_vertices_fp: str, outer_labels_fp: s
         hdf5_utils.append_hdf5_dataset_from_d_nested(d, sampled_save_fp)
 
 
-
 def get_bad_sapiens_keys():
     fp = "../Data/PC_Data/bad_samples_sapiens.json"
     with open(fp, "r") as f:
@@ -785,10 +781,14 @@ def get_bad_sapiens_keys():
 
 if __name__ == "__main__":
 
-    import h5py
-    if not os.path.exists(hdf5_save_fp):
-        with h5py.File(hdf5_save_fp, 'w') as f:
-            pass  
+    # import h5py
+    # if not os.path.exists(hdf5_save_fp):
+    #     with h5py.File(hdf5_save_fp, 'w') as f:
+    #         pass  
+
+    obj_fps = get_outer_obj_folder_fps()
+    print("Found obj folders:", obj_fps["obj_absolute_paths"])
+    print("Number of folders found:", len(obj_fps["obj_absolute_paths"]))
 
     # Reorientation
     get_all_models_hdf5_mp(get_outer_obj_folder_fps()["obj_absolute_paths"], hdf5_save_fp)

@@ -1,16 +1,21 @@
 # Human3DSEG
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/your-paper-id)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2507.18655)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://your-project-page.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Human3DSEG: [Your Paper Title]**  
-> *Author Name(s)*  
-> Conference/Journal Name Year
+> **Human3DSEG: Part Segmentation of Human Meshes via Multi-View Human Parsing**  
+> James Dickens, Kamyar Hamad  
+> 2025
 
 ## Abstract
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-Brief description of your work, methodology, and key contributions. This should be a concise summary of what problem you're solving and how.
+## Key Features
+
+- Feature 1
+- Feature 2  
+- Feature 3
 
 ## Repository Structure
 
@@ -20,8 +25,8 @@ This repository contains components for automatic 3D human point cloud annotatio
 Human3DSEG/
 ├── Data_Processing/      # Data preparation and preprocessing scripts
 ├── Model/                # Model training, evaluation, and inference code
-├── data/                 # Example or user data directory
-├── data_fps.py           # Utility script for data processing (e.g., Farthest Point Sampling)
+├── data/                 
+├── data_fps.py           
 ├── utils/                # Utility functions and helper modules
 ├── README.md             # Project documentation
 ```
@@ -48,16 +53,23 @@ The data preparation component provides tools and scripts for automatic 3D human
 - Handles automatic annotation of 3D human point clouds
 - Can be used as a standalone module for data preprocessing
 
-**Key features of data preparation:**
-- Automatic 3D human point cloud segmentation
-- Multiple annotation formats support
-- Batch processing capabilities
-- Quality validation tools
+```
+Data_Preprocessing/
+├── src/                   # Data loading utilities and scripts
+│   ├── PointTransformerV3
+│   ├── PyOpenGL
+│   ├── Sapiens
+│   ├── m2fp
+│   └── Yolov8
+├── data_processing/       # Evaluation scripts and metrics  
+├── __init__.py 
+```
+To use m2fp as 2d segmentor, clone the official implementation into the src/ directory.
 
 **Usage for data preparation:**
 ```bash
 cd Data_Preprocessing
-python prepare_data.py --input raw_data/ --output processed_data/
+python Data_Processing/data_processing.py 
 ```
 
 ---
@@ -85,48 +97,21 @@ cd Model
 git clone https://github.com/POSTECH-CVLab/point-transformer.git .
 ```
 
-**Training usage:**
+**Training:**
 ```bash
-python run.py pointtransformer_cihp_seg.yml human_seg_3d_cihp_PT.yml --gpu_override '[0, 1]'
+python Model/run.py pointtransformer_cihp_seg.yml human_seg_3d_cihp_PT.yml --gpu_override '[0, 1]'
 ```
-
-## Key Features
-
-- Feature 1
-- Feature 2  
-- Feature 3
-
-
-
-## Usage
-
-### Data Preparation
-```bash
-# Navigate to data preprocessing folder
-cd Data_Preprocessing
-
-# Run data preparation
-python prepare_data.py --input data/raw/ --output data/processed/
-```
-
-### Quick Start
-```bash
-python run_segmentation.py --input data/sample.obj --output results/
-```
-
-### Training
-```bash
-python train.py --config configs/default.yaml
-```
+**Evaluation:**
 
 ### Evaluation
 ```bash
-python eval.py --model checkpoints/best_model.pth --data data/test/
+python 
 ```
+
 
 ## Dataset
 
-Information about the dataset used, how to obtain it, and preprocessing steps.
+TODO: Information about the dataset used, how to obtain it, and preprocessing steps.
 
 ## Results
 
@@ -139,20 +124,21 @@ Information about the dataset used, how to obtain it, and preprocessing steps.
 ## Citation
 
 ```bibtex
-@article{your_paper_2024,
-  title={Your Paper Title},
-  author={Author Name},
-  journal={Journal/Conference Name},
-  year={2024}
+@article{dickens2025human3dseg,
+  title={Part Segmentation of Human Meshes via Multi-View Human Parsing},
+  author={Dickens, James and Hamad, Kamyar},
+  journal={arXiv preprint arXiv:2507.18655},
+  year={2025},
+  month={07},
+  doi={10.48550/arXiv.2507.18655},
+  url={https://arxiv.org/abs/2507.18655}
 }
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ## Acknowledgments
 
-- Acknowledge funding sources
-- Credit datasets or tools used
-- Thank collaborators or institutions
+-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
