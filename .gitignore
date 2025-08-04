@@ -1,3 +1,36 @@
+# Build artifacts and compiled files
+*.so
+*.egg-info/
+build/
+dist/
+
+
+# CUDA compilation artifacts
+.ninja_deps
+.ninja_log
+*.o
+
+
+# Binary files
+*.pt2
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.mlmodel
+
+
+# Environment specific files
+*.egg
+*.cpython-*
+
+# Temp directories
+temp/
+outputs/
+
+# Large model files directory structure
+Data_Processing/src/Sapiens/TS_Files/
+
 .idea/
 */__pycache__/
 __pycache__/
@@ -27,5 +60,6 @@ Renders
 /Notes/
 /Model/point_transformer/
 /data/
-Data_Processing/src/PointTransformerV3
-Data_Processing/src/m2fp
+/Data_Processing/src/PointTransformerV3
+/Data_Processing/src/m2fp
+/Data_Processing/src/Sapiens/TS_Files/seg
