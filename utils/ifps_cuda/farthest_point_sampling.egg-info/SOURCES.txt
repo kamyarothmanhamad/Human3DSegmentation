@@ -1,7 +1,0 @@
-farthest_point_sampling.cu
-fps.cpp
-setup.py
-farthest_point_sampling.egg-info/PKG-INFO
-farthest_point_sampling.egg-info/SOURCES.txt
-farthest_point_sampling.egg-info/dependency_links.txt
-farthest_point_sampling.egg-info/top_level.txt

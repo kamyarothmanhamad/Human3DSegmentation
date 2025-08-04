@@ -1,3 +1,0 @@
-# ninja log v5
-0	12969	1751420804317806640	/home/jamesdickens/PycharmProjects/Human3DSeg/PC_Utils/knn_cuda/build/temp.linux-x86_64-cpython-310/knn_query.o	8607dc569e6546af
-0	19354	1751420810703743794	/home/jamesdickens/PycharmProjects/Human3DSeg/PC_Utils/knn_cuda/build/temp.linux-x86_64-cpython-310/knn_query_kernel.o	9eae05a44fb9b52d

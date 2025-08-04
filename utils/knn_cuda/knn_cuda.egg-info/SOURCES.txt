@@ -1,7 +1,0 @@
-knn_query.cpp
-knn_query_kernel.cu
-setup.py
-knn_cuda.egg-info/PKG-INFO
-knn_cuda.egg-info/SOURCES.txt
-knn_cuda.egg-info/dependency_links.txt
-knn_cuda.egg-info/top_level.txt
