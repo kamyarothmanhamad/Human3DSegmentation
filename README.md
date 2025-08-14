@@ -136,7 +136,7 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
 ```
 
 ## License
-[MIT](LICENSE) © 2025 Kamyar Othman Hamad, James Dickens
+[MIT](LICENSE) © 2025 James Dickens, Kamyar O. Hamad
 
 ## Acknowledgments
 
