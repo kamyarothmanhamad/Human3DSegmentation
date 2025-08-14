@@ -141,7 +141,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 ## Acknowledgments
 
-## Acknowledgments
+We thank the [THUman2.0 dataset](https://github.com/ytrock/THuman2.0-Dataset) for providing the human scans used in this work; please cite the dataset if you use it.
 
-We gratefully acknowledge the THUman2.0 dataset (Tsinghua University) for providing the scans used in this work: https://github.com/ytrock/THuman2.0-Dataset. The dataset is available for **non-commercial research use only** and access requires agreeing to the dataset terms — please follow the request instructions on the dataset repo (see `THUman2.1_Agreement.pdf`) and contact Yebin Liu (liuyebin@mail.tsinghua.edu.cn) and Tao Yu (ytrock@126.com) for access. 
 
