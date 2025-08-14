@@ -101,7 +101,7 @@ git clone https://github.com/POSTECH-CVLab/point-transformer.git .
 ```bash
 python Model/run.py pointtransformer_cihp_seg.yml human_seg_3d_cihp_PT.yml --gpu_override '[0, 1]'
 ```
-**Evaluation:**
+<!--**Evaluation:**
 
 ### Evaluation
 ```bash
@@ -119,7 +119,7 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
 |--------|----------|----------|----------|
 | Ours   | **X.XX** | **X.XX** | **X.XX** |
 | Method A | X.XX   | X.XX     | X.XX     |
-| Method B | X.XX   | X.XX     | X.XX     |
+| Method B | X.XX   | X.XX     | X.XX     |-->
 
 ## Citation
 
