@@ -135,8 +135,7 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
 
 To cite this work, please use:
 
-```
-bibtex
+``` bibtex
 @article{dickens2025segmentationhumanmeshesmultiview,
   title={Part Segmentation of Human Meshes via Multi-View Human Parsing}, 
   author={James Dickens and Kamyar Hamad},
@@ -149,8 +148,7 @@ bibtex
 ```
 
 Please also cite the following works:
-```
-bibtex
+``` bibtex
 
 @article{yang2023humanparsing,
   title={Deep Learning Technique for Human Parsing: A Survey and Outlook},
