@@ -155,7 +155,8 @@ Please cite the following works:
   pages={16259--16268},
   year={2021}
 }
-``
+```
+
 ## License
 [MIT](LICENSE) © 2025 James Dickens, Kamyar O. Hamad
 
