@@ -145,7 +145,7 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
 }
 
 Please cite teh following works:
-
+``
 @article{yang2023humanparsing,
   title={Deep Learning Technique for Human Parsing: A Survey and Outlook},
   author={Lu Yang and Wenhe Jia and Shan Li and Qing Song},
