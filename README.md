@@ -72,13 +72,16 @@ Data_Preprocessing/
 ├── __init__.py 
 ```
 To use m2fp as 2d segmentor, clone the official implementation into the src/ directory.
+See https://github.com/soeaver/M2FP.
+
+the Sapiens torchscript files is available here:
+https://huggingface.co/facebook/sapiens-pose-1b-torchscript
 
 **Usage for data preparation:**
 ```bash
 cd Data_Preprocessing
 python Data_Processing/data_processing.py 
 ```
-
 ---
 
 ### Training Pipeline (`Model/` folder)
@@ -140,8 +143,31 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
   doi={10.48550/arXiv.2507.18655},
   url={https://arxiv.org/abs/2507.18655}
 }
-```
 
+Please cite teh following works:
+
+@article{yang2023humanparsing,
+  title={Deep Learning Technique for Human Parsing: A Survey and Outlook},
+  author={Lu Yang and Wenhe Jia and Shan Li and Qing Song},
+  journal={arXiv preprint arXiv:2301.00394},
+  year={2023}
+}
+
+@article{khirodkar2024sapiens,
+  title={Sapiens: Foundation for Human Vision Models},
+  author={Khirodkar, Rawal and Bagautdinov, Timur and Martinez, Julieta and Zhaoen, Su and James, Austin and Selednik, Peter and Anderson, Stuart and Saito, Shunsuke},
+  journal={arXiv preprint arXiv:2408.12569},
+  year={2024}
+}
+
+@inproceedings{zhao2021point,
+  title={Point transformer},
+  author={Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={16259--16268},
+  year={2021}
+}
+``
 ## License
 [MIT](LICENSE) © 2025 James Dickens, Kamyar O. Hamad
 
