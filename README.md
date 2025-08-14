@@ -11,11 +11,11 @@
 ## Abstract
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-## Key Features
+<!--## Key Features
 
 - Feature 1
 - Feature 2  
-- Feature 3
+- Feature 3-->
 
 ## Repository Structure
 
