@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Human3DSEG: Part Segmentation of Human Meshes via Multi-View Human Parsing**  
-> James Dickens, Kamyar Hamad  
+> [James Dickens](https://github.com/JamesMcCullochDickens), Kamyar Hamad  
 > 2025
 
 ## Abstract
