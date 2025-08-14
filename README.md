@@ -8,6 +8,9 @@
 > [James Dickens](https://github.com/JamesMcCullochDickens), Kamyar Hamad  
 > 2025
 
+![THuman2 1_Release_301-600_0303](https://github.com/user-attachments/assets/1ebf4995-3112-4162-bb53-0b1cad397b0f)
+
+
 ## Abstract
 Human3DSeg is an open-source framework for 3D human body part segmentation that leverages multi-view human parsing techniques. This repository provides a complete pipeline for automatic annotation and segmentation of 3D human point clouds and meshes. The framework consists of two main components: a data preprocessing module that handles automatic 3D annotation through 2D projections, and a model training pipeline that implements a Point Transformer architecture for accurate point cloud segmentation. Human3DSeg achieves considerable performance on human body part segmentation tasks while requiring minimal manual annotation effort. The framework is designed to be modular, allowing researchers and practitioners to adapt individual components for their specific 3D human analysis tasks.
 
