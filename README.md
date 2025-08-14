@@ -137,7 +137,7 @@ To cite this work, please use:
 
 ```
 bibtex
-@misc{dickens2025segmentationhumanmeshesmultiview,
+@article{dickens2025segmentationhumanmeshesmultiview,
   title={Part Segmentation of Human Meshes via Multi-View Human Parsing}, 
   author={James Dickens and Kamyar Hamad},
   year={2025},
