@@ -136,8 +136,7 @@ TODO: Information about the dataset used, how to obtain it, and preprocessing st
 ```
 
 ## License
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+[MIT](LICENSE) © 2025 Kamyar Othman Hamad, James Dickens
 
 ## Acknowledgments
 
