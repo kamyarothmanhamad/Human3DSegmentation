@@ -109,7 +109,7 @@ git clone https://github.com/POSTECH-CVLab/point-transformer.git .
 
 **Training:**
 ```bash
-python Model/run.py pointtransformer_cihp_seg.yml human_seg_3d_cihp_PT.yml --gpu_override '[0, 1]'
+python Model/run.py pointtransformer_cihp_seg.yml human_seg_3d_cihp_PT.yml
 ```
 <!--**Evaluation:**
 
