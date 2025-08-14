@@ -1,4 +1,4 @@
-# Human3DSEG
+# Human3DSeg
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2507.18655)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://your-project-page.com)
@@ -11,7 +11,7 @@
 ## Abstract
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-Human3DSEG is an open-source framework for 3D human body part segmentation that leverages multi-view human parsing techniques. This repository provides a complete pipeline for automatic annotation and segmentation of 3D human point clouds and meshes. The framework consists of two main components: a data preprocessing module that handles automatic 3D annotation through 2D projections, and a model training pipeline that implements a Point Transformer architecture for accurate point cloud segmentation. Human3DSEG achieves state-of-the-art performance on human body part segmentation tasks while requiring minimal manual annotation effort. The framework is designed to be modular, allowing researchers and practitioners to adapt individual components for their specific 3D human analysis tasks.
+Human3DSEG is an open-source framework for 3D human body part segmentation that leverages multi-view human parsing techniques. This repository provides a complete pipeline for automatic annotation and segmentation of 3D human point clouds and meshes. The framework consists of two main components: a data preprocessing module that handles automatic 3D annotation through 2D projections, and a model training pipeline that implements a Point Transformer architecture for accurate point cloud segmentation. Human3DSeg achieves state-of-the-art performance on human body part segmentation tasks while requiring minimal manual annotation effort. The framework is designed to be modular, allowing researchers and practitioners to adapt individual components for their specific 3D human analysis tasks.
 
 <!--## Key Features
 
@@ -24,7 +24,7 @@ Human3DSEG is an open-source framework for 3D human body part segmentation that 
 This repository contains components for automatic 3D human point cloud annotation and segmentation, organized into two main parts:
 
 ```
-Human3DSEG/
+Human3DSeg/
 ├── Data_Processing/      # Data preparation and preprocessing scripts
 ├── Model/                # Model training, evaluation, and inference code
 ├── data/                 
