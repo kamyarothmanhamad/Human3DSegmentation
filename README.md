@@ -35,7 +35,7 @@ Human3DSeg/
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/Human3DSeg.git
+git clone git@github.com:kamyarothmanhamad/Human3DSegmentation.git
 cd Human3DSEG
 
 # Create conda environment
